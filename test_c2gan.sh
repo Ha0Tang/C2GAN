@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/Radboud --name Radboud_c2gan --model c2gan --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --gpu_ids 0 --batch 8;

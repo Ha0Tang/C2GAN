@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0;
+python train.py --dataroot ./datasets/Radboud --name Radboud_c2gan --model c2gan --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --pool_size 50 --gpu_ids 0 --batch 8;
