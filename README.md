@@ -46,7 +46,7 @@ or
 To reproduce the results reported in the paper, you would need an NVIDIA TITAN Xp GPUs.
 
 ## Dataset Preparation
-Paper the datasets like in [this folder](./datasets/Radboud). Please cite their paper if you use the data.
+Prepare the datasets like in [this folder](./datasets/Radboud). Please cite their paper if you use the data.
 
 ## C2GAN Training/Testing
 - Download a dataset using the previous script (e.g., Radboud).
