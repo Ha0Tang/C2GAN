@@ -3,7 +3,7 @@ FILE=$1
 echo "Note: available models are Radboud"
 echo "Specified [$FILE]"
 
-URL=http://disi.unitn.it/~hao.tang/uploads/models/AttentionGAN/${FILE}_pretrained.tar.gz
+URL=http://disi.unitn.it/~hao.tang/uploads/models/C2GAN/${FILE}_pretrained.tar.gz
 TAR_FILE=./checkpoints/${FILE}_pretrained.tar.gz
 TARGET_DIR=./checkpoints/${FILE}_pretrained/
 
