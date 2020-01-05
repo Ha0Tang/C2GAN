@@ -53,6 +53,7 @@ For your convenience we provide download scripts:
 bash ./datasets/download_c2gan_dataset.sh RaFD_image_landmark
 ```
 - `RaFD_image_landmark`: 3.0 GB
+
 Prepare the datasets like in [this folder](./datasets/Radboud) aftre the download has finished. Please cite their paper if you use the data.
 
 ## C2GAN Training/Testing
