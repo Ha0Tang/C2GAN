@@ -54,6 +54,8 @@ bash ./datasets/download_c2gan_dataset.sh RaFD_image_landmark
 ```
 - `RaFD_image_landmark`: 3.0 GB
 
+or you can use `./scripts/convert_pts_to_figure.m` to convert the generated pts files to figures.
+
 Prepare the datasets like in [this folder](./datasets/Radboud) aftre the download has finished. Please cite their paper if you use the data.
 
 ## C2GAN Training/Testing
