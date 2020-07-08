@@ -1,0 +1,2 @@
+export CUDA_VISIBLE_DEVICES=0;
+python test.py --dataroot ./datasets/senz3d --name senz3d_c2gan --model c2gan --which_model_netG unet_256 --which_direction AtoB --dataset_mode aligned --norm batch --gpu_ids 0 --batch 12 --loadSize 256 --which_epoch latest;
