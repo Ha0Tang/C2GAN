@@ -12,8 +12,6 @@
   - [Dataset Preparation](#Dataset-Preparation)
   - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
   - [Train and Test New Models](#Train-and-Test-New-Models)
-  - [Download Images Produced by the Authors](#Download-Images-Produced-by-the-Authors)
-  - [Evaluation](#Evaluation)
   - [Acknowledgments](#Acknowledgments)
   - [Related Projects](#Related-Projects)
   - [Citation](#Citation)
