@@ -21,15 +21,13 @@
 
 ## Cycle-In-Cycle GANs
 **| [Paper](https://arxiv.org/abs/1908.00999) | [Project](http://disi.unitn.it/~hao.tang/project/C2GAN.html) |** <br>
-**Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation** <br>
+**[Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation](https://arxiv.org/abs/1908.00999)** <br>
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Dan Xu](http://www.robots.ox.ac.uk/~danxu/)<sup>2</sup>, [Gaowen Liu](https://dblp.uni-trier.de/pers/hd/l/Liu:Gaowen)<sup>3</sup>, [Wei Wang](https://weiwangtrento.github.io/)<sup>4</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>1</sup> and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en)<sup>3</sup> </br>
 <sup>1</sup>University of Trento, <sup>2</sup>University of Oxford, <sup>3</sup>Texas State University, <sup>4</sup>EPFL </br>
 The repository offers the official implementation of our paper in PyTorch.
 
 ### C2GAN Framework
 ![Framework](./imgs/c2gan_framework.jpg)
-
-
 
 ### [License](./LICENSE.md)
 
@@ -71,20 +69,6 @@ or you can use `./scripts/convert_pts_to_figure.m` to convert the generated pts 
 
 Prepare the datasets like in [this folder](./datasets/Radboud) aftre the download has finished. Please cite their paper if you use the data.
 
-## C2GAN Training/Testing
-- Download a dataset using the previous script (e.g., Radboud).
-- To view training results and loss plots, run `python -m visdom.server` and click the URL [http://localhost:8097](http://localhost:8097).
-- Train a model:
-```
-bash ./train_c2gan.sh
-```
-- To see more intermediate results, check out `./checkpoints/Radboud_c2gan/web/index.html`.
-- Test the model:
-```
-bash ./test_c2gan.sh
-```
-- The test results will be saved to a html file here: `./results/Radboud_c2gan/latest_test/index.html`.
-
 ## Generating Images Using Pretrained Model
 - You need download a pretrained model (e.g., Radboud) with the following script:
 ```
@@ -99,8 +83,30 @@ The results will be saved at `./results/`. Use `--results_dir {directory_path_to
 
 - For your own experiments, you might want to specify --netG, --norm, --no_dropout to match the generator architecture of the trained model.
 
+## Train and Test New Models
+- Download a dataset using the previous script (e.g., Radboud).
+- To view training results and loss plots, run `python -m visdom.server` and click the URL [http://localhost:8097](http://localhost:8097).
+- Train a model:
+```
+bash ./train_c2gan.sh
+```
+- To see more intermediate results, check out `./checkpoints/Radboud_c2gan/web/index.html`.
+- Test the model:
+```
+bash ./test_c2gan.sh
+```
+- The test results will be saved to a html file here: `./results/Radboud_c2gan/latest_test/index.html`.
+
+## Acknowledgments
+This source code is inspired by [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and [GestureGAN](https://github.com/Ha0Tang/GestureGAN).
+
+## Related Projects
+**[BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN) | [XingGAN](https://github.com/Ha0Tang/XingGAN) | [GestureGAN](https://github.com/Ha0Tang/GestureGAN) | [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) | [Guided-I2I-Translation-Papers](https://github.com/Ha0Tang/Guided-I2I-Translation-Papers)**
+
 ## Citation
-If you use this code for your research, please cite our papers.
+If you use this code for your research, please cite our paper.
+
+C2GAN
 ```
 @inproceedings{tang2019cycleincycle,
   title={Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation},
@@ -165,9 +171,6 @@ SelectionGAN
   year={2020}
 }
 ```
-
-## Acknowledgments
-This source code is inspired by [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [GestureGAN](https://github.com/Ha0Tang/GestureGAN). 
 
 ## Contributions
 If you have any questions/comments/bug reports, feel free to open a github issue or pull a request or e-mail to the author Hao Tang ([hao.tang@unitn.it](hao.tang@unitn.it)).
