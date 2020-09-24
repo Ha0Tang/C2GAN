@@ -6,17 +6,30 @@
 ![Contributing](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
-# Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation
+## Contents
+  - [Cycle-In-Cycle GANs](#Cycle-In-Cycle-GANs)
+  - [Installation](#Installation)
+  - [Dataset Preparation](#Dataset-Preparation)
+  - [Generating Images Using Pretrained Model](#Generating-Images-Using-Pretrained-Model)
+  - [Train and Test New Models](#Train-and-Test-New-Models)
+  - [Download Images Produced by the Authors](#Download-Images-Produced-by-the-Authors)
+  - [Evaluation](#Evaluation)
+  - [Acknowledgments](#Acknowledgments)
+  - [Related Projects](#Related-Projects)
+  - [Citation](#Citation)
+  - [Contributions](#Contributions)
 
-## C2GAN Framework
-
-![Framework](./imgs/c2gan_framework.jpg)
-
-### [Paper](https://arxiv.org/abs/1908.00999) | [Project](http://disi.unitn.it/~hao.tang/project/C2GAN.html)
-Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation.<br>
+## Cycle-In-Cycle GANs
+**| [Paper](https://arxiv.org/abs/1908.00999) | [Project](http://disi.unitn.it/~hao.tang/project/C2GAN.html) |** <br>
+**Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation** <br>
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Dan Xu](http://www.robots.ox.ac.uk/~danxu/)<sup>2</sup>, [Gaowen Liu](https://dblp.uni-trier.de/pers/hd/l/Liu:Gaowen)<sup>3</sup>, [Wei Wang](https://weiwangtrento.github.io/)<sup>4</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>1</sup> and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en)<sup>3</sup> </br>
 <sup>1</sup>University of Trento, <sup>2</sup>University of Oxford, <sup>3</sup>Texas State University, <sup>4</sup>EPFL </br>
 The repository offers the official implementation of our paper in PyTorch.
+
+### C2GAN Framework
+![Framework](./imgs/c2gan_framework.jpg)
+
+
 
 ### [License](./LICENSE.md)
 
