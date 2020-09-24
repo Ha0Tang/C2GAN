@@ -97,6 +97,62 @@ If you use this code for your research, please cite our papers.
 }
 ```
 
+If you use the original [BiGraphGAN](https://github.com/Ha0Tang/BiGraphGAN), [XingGAN](https://github.com/Ha0Tang/XingGAN), [GestureGAN](https://github.com/Ha0Tang/GestureGAN), and [SelectionGAN](https://github.com/Ha0Tang/SelectionGAN) model, please cite the following papers:
+
+BiGraphGAN
+```
+@inproceedings{tang2020bipartite,
+  title={Bipartite Graph Reasoning GANs for Person Image Generation},
+  author={Tang, Hao and Bai, Song and Torr, Philip HS and Sebe, Nicu},
+  booktitle={BMVC},
+  year={2020}
+}
+```
+
+XingGAN
+```
+@inproceedings{tang2020xinggan,
+  title={XingGAN for Person Image Generation},
+  author={Tang, Hao and Bai, Song and Zhang, Li and Torr, Philip HS and Sebe, Nicu},
+  booktitle={ECCV},
+  year={2020}
+}
+```
+
+GestureGAN
+```
+@article{tang2019unified,
+  title={Unified Generative Adversarial Networks for Controllable Image-to-Image Translation},
+  author={Tang, Hao and Liu, Hong and Sebe, Nicu},
+  journal={IEEE Transactions on Image Processing (TIP)},
+  year={2020}
+}
+
+@inproceedings{tang2018gesturegan,
+  title={GestureGAN for Hand Gesture-to-Gesture Translation in the Wild},
+  author={Tang, Hao and Wang, Wei and Xu, Dan and Yan, Yan and Sebe, Nicu},
+  booktitle={ACM MM},
+  year={2018}
+}
+```
+
+SelectionGAN
+```
+@inproceedings{tang2019multi,
+  title={Multi-channel attention selection gan with cascaded semantic guidance for cross-view image translation},
+  author={Tang, Hao and Xu, Dan and Sebe, Nicu and Wang, Yanzhi and Corso, Jason J and Yan, Yan},
+  booktitle={CVPR},
+  year={2019}
+}
+
+@article{tang2020multi,
+  title={Multi-channel attention selection gans for guided image-to-image translation},
+  author={Tang, Hao and Xu, Dan and Yan, Yan and Corso, Jason J and Torr, Philip HS and Sebe, Nicu},
+  journal={arXiv preprint arXiv:2002.01048},
+  year={2020}
+}
+```
+
 ## Acknowledgments
 This source code is inspired by [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) and [GestureGAN](https://github.com/Ha0Tang/GestureGAN). 
 
