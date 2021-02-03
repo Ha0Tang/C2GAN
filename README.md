@@ -86,12 +86,12 @@ The results will be saved at `./results/`. Use `--results_dir {directory_path_to
 - To view training results and loss plots, run `python -m visdom.server` and click the URL [http://localhost:8097](http://localhost:8097).
 - Train a model:
 ```
-bash ./train_c2gan.sh
+sh ./train_c2gan.sh
 ```
 - To see more intermediate results, check out `./checkpoints/Radboud_c2gan/web/index.html`.
 - Test the model:
 ```
-bash ./test_c2gan.sh
+sh ./test_c2gan.sh
 ```
 - The test results will be saved to a html file here: `./results/Radboud_c2gan/latest_test/index.html`.
 
