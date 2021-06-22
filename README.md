@@ -18,7 +18,7 @@
   - [Contributions](#Contributions)
 
 ## Cycle-In-Cycle GANs
-**| [Paper](https://arxiv.org/abs/1908.00999) | [Project](http://disi.unitn.it/~hao.tang/project/C2GAN.html) |** <br>
+**| [Conference Paper](https://arxiv.org/abs/1908.00999) | [Extended Paper](https://arxiv.org/abs/2106.10876) | [Project](http://disi.unitn.it/~hao.tang/project/C2GAN.html) |** <br>
 **[Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation](https://arxiv.org/abs/1908.00999)** <br>
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Dan Xu](http://www.robots.ox.ac.uk/~danxu/)<sup>2</sup>, [Gaowen Liu](https://dblp.uni-trier.de/pers/hd/l/Liu:Gaowen)<sup>3</sup>, [Wei Wang](https://weiwangtrento.github.io/)<sup>4</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>1</sup> and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en)<sup>3</sup> </br>
 <sup>1</sup>University of Trento, <sup>2</sup>University of Oxford, <sup>3</sup>Texas State University, <sup>4</sup>EPFL </br>
@@ -106,6 +106,13 @@ If you use this code for your research, please cite our paper.
 
 C2GAN
 ```
+@article{tang2021total,
+  title={Total Generate: Cycle in Cycle Generative Adversarial Networks for Generating Human Faces, Hands, Bodies, and Natural Scenes},
+  author={Tang, Hao and Sebe, Nicu},
+  journal={IEEE Transactions on Multimedia (TMM)},
+  year={2021}
+}
+
 @inproceedings{tang2019cycleincycle,
   title={Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation},
   author={Tang, Hao and Xu, Dan and Liu, Gaowen and Wang, Wei and Sebe, Nicu and Yan, Yan},
