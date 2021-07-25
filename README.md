@@ -22,7 +22,9 @@
 **[Cycle In Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation](https://arxiv.org/abs/1908.00999)** <br>
 [Hao Tang](http://disi.unitn.it/~hao.tang/)<sup>1</sup>, [Dan Xu](http://www.robots.ox.ac.uk/~danxu/)<sup>2</sup>, [Gaowen Liu](https://dblp.uni-trier.de/pers/hd/l/Liu:Gaowen)<sup>3</sup>, [Wei Wang](https://weiwangtrento.github.io/)<sup>4</sup>, [Nicu Sebe](https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en)<sup>1</sup> and [Yan Yan](https://scholar.google.com/citations?user=zhi-j1wAAAAJ&hl=en)<sup>3</sup> </br>
 <sup>1</sup>University of Trento, <sup>2</sup>University of Oxford, <sup>3</sup>Texas State University, <sup>4</sup>EPFL </br>
-The repository offers the official implementation of our paper in PyTorch.
+The repository offers the official implementation of our paper in PyTorch. <br>
+
+In the meantime, check out our related BMVC 2020 oral paper [Bipartite Graph Reasoning GANs for Person Image Generation](https://github.com/Ha0Tang/BiGraphGAN), ECCV 2020 paper [XingGAN for Person Image Generation](https://github.com/Ha0Tang/XingGAN), and ICCV 2021 paper [Intrinsic-Extrinsic Preserved GANs for Unsupervised 3D Pose Transfer](https://github.com/mikecheninoulu/Unsupervised_IEPGAN).
 
 ### C2GAN Framework
 ![Framework](./imgs/c2gan_framework.jpg)
